@@ -3,12 +3,12 @@
 # Find the Unreal Mono install if it exists, we'll use that if possible
 # Otherwise we fallback to mono and hope it exists
 EPIC_MONO=""
-if [ -f "D:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Mac\SetupMono.sh" ]; then
-    pushd "D:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Mac"
+if [ -f "/Users/Shared/Epic Games/UE_4.23/Engine/Build/BatchFiles/Mac/SetupMono.sh" ]; then
+    pushd "/Users/Shared/Epic Games/UE_4.23/Engine/Build/BatchFiles/Mac"
 	source SetupMono.sh
     popd
 else
-	EPIC_MONO="NOTE: It seems this $0 was built from another platform and copied here.\nNOTE: Was expecting to setup mono via: "'D:\Program Files\Epic Games\UE_4.23\Engine\Build\BatchFiles\Mac\SetupMono.sh';
+	EPIC_MONO="NOTE: It seems this $0 was built from another platform and copied here.\nNOTE: Was expecting to setup mono via: "'/Users/Shared/Epic Games/UE_4.23/Engine/Build/BatchFiles/Mac/SetupMono.sh';
 fi
 
 # Give some warning if mono isn't valid.
