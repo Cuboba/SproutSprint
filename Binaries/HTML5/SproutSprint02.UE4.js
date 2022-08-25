@@ -54,8 +54,28 @@ const serveCompressedAssets = false;
 // If true, serve out 'UE4Game.data.gz', if false, serve out 'UE4Game.data'.
 //const dataFileIsGzipCompressed = false;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+console.log("Emscripten version: D:/Program Files/Epic Games/UE_4.23/Engine/Extras/ThirdPartyNotUE/emsdk/emscripten/1.38.31");
+console.log("Emscripten configuration: D:/Program Files/Epic Games/UE_4.23/Engine/Intermediate/Build/HTML5/.emscripten");
+=======
 console.log("Emscripten version: /Users/Shared/Epic Games/UE_4.23/Engine/Extras/ThirdPartyNotUE/emsdk/emscripten/1.38.31");
 console.log("Emscripten configuration: /Users/Shared/Epic Games/UE_4.23/Engine/Intermediate/Build/HTML5/.emscripten");
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+console.log("Emscripten version: /Users/Shared/Epic Games/UE_4.23/Engine/Extras/ThirdPartyNotUE/emsdk/emscripten/1.38.31");
+console.log("Emscripten configuration: /Users/Shared/Epic Games/UE_4.23/Engine/Intermediate/Build/HTML5/.emscripten");
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+console.log("Emscripten version: /Users/Shared/Epic Games/UE_4.23/Engine/Extras/ThirdPartyNotUE/emsdk/emscripten/1.38.31");
+console.log("Emscripten configuration: /Users/Shared/Epic Games/UE_4.23/Engine/Intermediate/Build/HTML5/.emscripten");
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+console.log("Emscripten version: /Users/Shared/Epic Games/UE_4.23/Engine/Extras/ThirdPartyNotUE/emsdk/emscripten/1.38.31");
+console.log("Emscripten configuration: /Users/Shared/Epic Games/UE_4.23/Engine/Intermediate/Build/HTML5/.emscripten");
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
 
 
 
@@ -73,7 +93,23 @@ var Module = {
 	assetDownloadProgress: {}, // Track how many bytes of each needed asset has been downloaded so far.
 
 	UE4_indexedDBName: 'UE4_assetDatabase_SproutSprint02', // this should be an ascii ID string without special characters that is unique to the project that is being packaged
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	UE4_indexedDBVersion: 202208251321, // Bump this number to invalidate existing IDB storages in browsers.
+=======
 	UE4_indexedDBVersion: 202208250852, // Bump this number to invalidate existing IDB storages in browsers.
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+	UE4_indexedDBVersion: 202208250852, // Bump this number to invalidate existing IDB storages in browsers.
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+	UE4_indexedDBVersion: 202208250852, // Bump this number to invalidate existing IDB storages in browsers.
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+	UE4_indexedDBVersion: 202208250852, // Bump this number to invalidate existing IDB storages in browsers.
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
 };
 
 

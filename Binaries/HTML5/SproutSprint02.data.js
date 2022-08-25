@@ -18,7 +18,23 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    var PACKAGE_NAME = 'C:/Users/Cub/Desktop/SproutSprint021908/Binaries/HTML5/SproutSprint02.data';
+=======
     var PACKAGE_NAME = '/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data';
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+    var PACKAGE_NAME = '/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data';
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+    var PACKAGE_NAME = '/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data';
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+    var PACKAGE_NAME = '/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data';
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
     var REMOTE_PACKAGE_BASE = 'SproutSprint02.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
@@ -149,10 +165,35 @@ Module['FS_createPath']('/SproutSprint02/Content', 'Paks', true, true);
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
           }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+              Module['removeRunDependency']('datafile_C:/Users/Cub/Desktop/SproutSprint021908/Binaries/HTML5/SproutSprint02.data');
+
+    };
+    Module['addRunDependency']('datafile_C:/Users/Cub/Desktop/SproutSprint021908/Binaries/HTML5/SproutSprint02.data');
+=======
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
               Module['removeRunDependency']('datafile_/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data');
 
     };
     Module['addRunDependency']('datafile_/Users/jacobarmitage/Documents/GitHub/SproutSprint/Binaries/HTML5/SproutSprint02.data');
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
@@ -173,6 +214,22 @@ Module['FS_createPath']('/SproutSprint02/Content', 'Paks', true, true);
   }
 
  }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 101, "filename": "/UE4CommandLine.txt"}, {"start": 101, "audio": 0, "end": 30019331, "filename": "/SproutSprint02/Content/Paks/SproutSprint02-HTML5.pak"}], "remote_package_size": 30019331, "package_uuid": "1f0100a3-8f27-45ab-b297-52b6a1e61995"});
+=======
  loadPackage({"files": [{"start": 0, "audio": 0, "end": 52, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 52, "audio": 0, "end": 100, "filename": "/UE4CommandLine.txt"}, {"start": 100, "audio": 0, "end": 30265501, "filename": "/SproutSprint02/Content/Paks/SproutSprint02-HTML5.pak"}], "remote_package_size": 30265501, "package_uuid": "17ac4765-fcfc-454a-b1c0-b29a64a4468e"});
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 52, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 52, "audio": 0, "end": 100, "filename": "/UE4CommandLine.txt"}, {"start": 100, "audio": 0, "end": 30265501, "filename": "/SproutSprint02/Content/Paks/SproutSprint02-HTML5.pak"}], "remote_package_size": 30265501, "package_uuid": "17ac4765-fcfc-454a-b1c0-b29a64a4468e"});
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 52, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 52, "audio": 0, "end": 100, "filename": "/UE4CommandLine.txt"}, {"start": 100, "audio": 0, "end": 30265501, "filename": "/SproutSprint02/Content/Paks/SproutSprint02-HTML5.pak"}], "remote_package_size": 30265501, "package_uuid": "17ac4765-fcfc-454a-b1c0-b29a64a4468e"});
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
+=======
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 52, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 52, "audio": 0, "end": 100, "filename": "/UE4CommandLine.txt"}, {"start": 100, "audio": 0, "end": 30265501, "filename": "/SproutSprint02/Content/Paks/SproutSprint02-HTML5.pak"}], "remote_package_size": 30265501, "package_uuid": "17ac4765-fcfc-454a-b1c0-b29a64a4468e"});
+>>>>>>> fda8c7a3c1b95cdc80bf9b403b66b4f946bd5f06
 
 })();
